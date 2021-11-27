@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    color: white;
+    background-color: #00008b;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+#title{
+    text-align: center;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 0px;
+}
+#description{
+    text-align: center;
+    font-style: italic;
+    font-weight: 200;
+    text-shadow: rgba(0, 0, 0, 0.4) 1px 1px 1px;
+}
+section{
+    background-color: rgb(5, 2, 32);
+}
+form{
+    display: block;
+    padding-left: 10px;
+}
+label,select,textarea{
+    margin-top: 10px;
+}
+textarea{
+    font-family: 'Times New Roman', Times, serif;
+}
+input,select{
+    border-radius: 5px;
+    padding: 5px 20px;
+    font-weight: bold;
+}
+#submit{
+    background-color: rgb(44, 155, 192);
+    padding: 5px 30px 5px 30px;
+}
+#submit:hover{
+    background-color: yellow;
+}
